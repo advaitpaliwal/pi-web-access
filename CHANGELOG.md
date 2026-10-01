@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
-- `web_search` accepts `provider`, `queries`, and `domainFilter` arrays that a model sent as a JSON string, such as `provider: "[\"parallel-mcp\"]"`. They failed schema validation before the search ran.
+- `web_search` accepts `provider`, `queries`, and `domainFilter` arrays that a model sent as a JSON string, such as `provider: "[\"parallel-mcp\"]"`. They failed schema validation before the search ran. Thanks to [@advaitpaliwal](https://github.com/advaitpaliwal) for [PR #491](https://github.com/nicobailon/pi-web-access/pull/491).
 
 ## [0.35.0] - 2026-09-30
 
